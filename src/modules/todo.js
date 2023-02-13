@@ -1,5 +1,5 @@
 import { atom } from "jotai";
-import { jotaiStore } from "../jotai-store";
+import { jotaiStore } from "./jotai-store";
 
 export const todosAtom = atom([]);
 

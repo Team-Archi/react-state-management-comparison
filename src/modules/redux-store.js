@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import counterReducer from "./modules/counter";
-import coffeeSlice from "./modules/coffee";
+import counterReducer from "./counter";
+import coffeeSlice from "./coffee";
 
 export default configureStore({
   reducer: {

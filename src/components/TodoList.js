@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import styled from "styled-components";
-import { jotaiStore } from "../jotai-store";
+import { jotaiStore } from "../modules/jotai-store";
 import { addTodo, checkTodo, todosAtom } from "../modules/todo";
 
 function TodoList() {
