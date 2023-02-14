@@ -21,3 +21,10 @@ Terry : 모두 활용해본 결과, Zustand가 아주 좋네요. :) (Jotai보다
     - (장점) provider가 전혀 필요없습니다. 대량의 store 선언도 가능합니다.
     - (장점) Flux패턴이지만 내부적으로 처리하기 때문에 이해하는데 복잡하지 않습니다.
     - (단점) 아직까진 없는듯...?합니다.
+
+# 반응형 구현
+### PC
+<img width="1585" alt="image" src="https://user-images.githubusercontent.com/37768791/218679514-373864bd-e97d-417d-b26b-6e6ce2e2c589.png">
+
+### Mobile
+<img width="556" alt="image" src="https://user-images.githubusercontent.com/37768791/218679779-e19e036d-9f71-49af-9ac4-b2d32696afc4.png">
