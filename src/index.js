@@ -6,14 +6,26 @@ import reportWebVitals from "./reportWebVitals";
 import { Provider } from "react-redux";
 import store from "./modules/redux-store";
 import { atomWithStore } from "jotai-redux";
-export const storeAtom = atomWithStore(store)
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import ResponsivePage from "./pages/ResponsivePage";
+export const storeAtom = atomWithStore(store);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>,
+  },
+  {
+    path: "/responsive",
+    element: <ResponsivePage/>,
+  },
+]);
 
 root.render(
-    <Provider store={store}>
-      <App />
-    </Provider>
+  <Provider store={store}>
+    <RouterProvider router={router} />
+  </Provider>
 );
 
 // If you want to start measuring performance in your app, pass a function
